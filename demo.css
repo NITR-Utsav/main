@@ -28,6 +28,15 @@
     color: #cc0000;
     opacity: 0.2;
   }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .preloader_inner {
+      top: 55%;
+      left: 55%;
+      font-size: 3em;
+    }
+  }
   
   .page{
     position: absolute;
